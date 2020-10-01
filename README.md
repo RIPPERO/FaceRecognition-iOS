@@ -2,7 +2,7 @@
 
 ## Project Idea
 
-**The main idea of this project is to recognize the person properly, then communicate with ESP32 device via Bluetooth and send a signal that the authentication has happened correctly.**
+**The main idea of this project is to recognize the person properly, then communicate with ESP32 device via Bluetooth and send a signal that the authentication has happened correctly. In our case, it is turning the LED ON when authentication is correct and turning the LED OFF when it is not.**
 
 ## How to run the app
 
