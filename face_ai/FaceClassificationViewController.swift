@@ -103,8 +103,13 @@ class FaceClassificationViewController: UIViewController, AVCaptureVideoDataOutp
                     fatalError("Unexpected results")
             }
             
+                let formatter = NumberFormatter()
+                formatter.minimumFractionDigits = 0
+                formatter.maximumFractionDigits = 2
+                formatter.numberStyle = .percent
+            
                 DispatchQueue.main.async {[weak self] in
-                    self?.label.text = topResult.identifier + " " + String(topResult.confidence)
+                    self?.label.text = topResult.identifier + " " + String(formatter.string(from: topResult.confidence as NSNumber) ?? "n/a")
             
             }
             
