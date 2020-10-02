@@ -8,14 +8,20 @@
 
 **1. Clone this repo**
 
-**2. Open the XCode project on Mac computer**
+**2. Open the Xcode project on Mac computer**
 
-**3. Select the development team**
+**3. Select the development team by going to "face_ai" on the Navigator window -> Select Signing & Capabilities -> Select your team**
+
+**If you do not have one, you need to open Xcode preferences -> Accounts -> Add your Apple ID, then click Manage Certificates -> Click "+" button -> Apple Development**
+
+**Finally you may have to change your "Bundle Identifier" (it is under "Team" in Signing & Capabilities settings) to whatever you want**
 
 **4. Plugin iPhone to the Mac**
 
 **5. Choose connected iPhone from available devices**
 
 **6. Hit Run button**
+
+**7. Trust the developer on the iPhone by going to Settings -> General -> Profiles & Device Management**
 
 **Have fun!**
